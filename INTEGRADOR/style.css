@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: rgb(107, 101, 170);
+    margin: 5p 5px 5px 140px;
+}
+ header {
+    background-image: linear-gradient(to right, rgba(130, 32, 117, 0.8), rgba(255, 255, 255, 0));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+    padding: 0px 15px 30px 5px; 
+    margin: auto;
+    display: flex;
+    height: 170px;
+    width: 1519px;
+    background-color: rgb(107, 101, 170);
+}
+header ul{ 
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding: 45px;
+   
+   
+}
+header li{
+    padding: 0 10px;
+}
+
+#logo a img{
+    width: 170px;
+    animation: spin 10s linear infinite;
+    
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+nav ul li a {
+    text-decoration: none;
+    color:rgb(255, 255, 255); 
+    font-size: 20px; 
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ul a{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+.ul li {
+    color: white; 
+   
+}
+
+nav{
+    margin: 20px;
+    display: inline;
+}
+
+
+main{
+    margin: 20px 40px;
+    
+}
+
+#bicicletas {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 40px 0; 
+    margin: 20px;
+    
+    
+}
+
+.fila1-bicicletas {
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center; 
+}
+
+.fila1{
+    display: flex;
+}
+
+.bicicleta {
+    width: calc(30px - 20px); /* Establece el ancho de cada bicicleta */
+    margin-bottom: 50px; 
+    text-align: center; 
+    
+    padding: 10px;
+    overflow: hidden; 
+}
+
+.bicicleta img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 35px; 
+  
+}
+.scott{
+    margin: 20px;
+}
+.scott h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #713867;
+    margin: 5px 10px;text-wrap: balance;
+}
+.supercaliber h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #713867;
+    margin: 5px 10px;
+   
+}
+.special h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #713867;
+    margin: 5px 10px;
+    
+}
+.scott p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 80%;
+    text-wrap: balance;
+    
+
+} 
+.supercaliber p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 90%;
+    text-wrap: balance;
+    
+}
+.special p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 80%;
+    text-wrap: balance;
+}
+.equipo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem; 
+    color: #666; 
+}
+#equipo{
+    background-image: linear-gradient(to right, rgba(130, 32, 117, 0.8), rgba(255, 255, 255, 0));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+    padding: 10px 0;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 350px;
+    
+    
+}
+#equipo ul{
+    margin: 10px 93px;
+}
+#equipo h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+#fotoagus img{
+    width: 250px;
+    object-fit: cover;
+    
+}
+
+#equipo img{
+    border: 2px solid transparent;
+    width: 250px;
+    object-fit: cover;
+    margin: 5px 59px 8px 59px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra con color semitransparente */
+    transition: box-shadow 0.3s ease-in-out; /* Transición suave del efecto */
+
+    
+    
+}
+#equipo img:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Aumenta el tamaño y la intensidad al pasar el ratón */
+}
+
+#noticias {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 0;
+    color: rgb(5, 5, 5);   
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+.NN{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 20px 10px;
+  padding: 20px;
+  
+  
+  
+}
+.NN img{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    object-fit: contain;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+    align-items: center;
+
+  
+}
+
+.NN p{
+    column-count: 3; 
+    column-width: 450px; 
+    column-gap: 40px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding: 10px 10px;
+
+}
+
+.noti1{
+    background-image: linear-gradient(to left, rgba(130, 32, 117, 0.8), rgba(255, 255, 255, 0));
+    border-bottom: 1px solid rgba(241, 167, 238, 0.5); 
+    padding: 0 10px; 
+    background-color:rgb(82, 71, 90); 
+    color: white;
+}
+
+.noti2{
+    background-color: #713867;
+    color: white;
+    
+}
+
+.noti3{
+    background-image: linear-gradient(to right, rgba(130, 32, 117, 0.8), rgba(255, 255, 255, 0));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+    padding: 0 10px; 
+    background-color:rgb(82, 71, 90); 
+    color: white;
+    
+}
+
+#noticias h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(246, 245, 244);
+    margin: 40px;
+
+}
+#publicidad {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+    padding: 10px 0; 
+    text-align: center; 
+    padding: 20px 20px;
+    margin: 20px;
+     
+}
+
+#publicidad h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #713867;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+    
+
+.videosyoutube {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+iframe {
+    width: 360px;
+    height: 215px; 
+    border: none;
+}   
+
+footer{
+    background-image: linear-gradient(to right, rgba(130, 32, 117, 0.8), rgba(255, 255, 255, 0));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+    padding: 1%; 
+    margin: 50px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+footer i{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+#DatosAgiles{
+    display: flex ;
+    justify-content: space-between;
+    padding: 10px
+}
+#DatosAgiles h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}   
+
+#Datos p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+    
+}
+#redes-sociales ul{
+    list-style: none;
+    margin-top: 40px;
+    display: flex;
+}
+
+#redes-sociales li{
+    padding: 10px 23px;
+}
+
+#ubi iframe {
+    margin-top: 15px;
+    width: 30rem;
+    
+    
+}
